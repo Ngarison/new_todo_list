@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: url(images/BIG-M-SOLUTIONS_png.png);
+}
+
+#ft_list{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding-top: 50px;
+   border: 1px solid gray;
+   width: 500px;
+   margin-left: 590px;
+   margin-top: 100px;
+   height: 300px;
+   box-shadow: 5px 5px 20px 5px rgb(107, 104, 104);
+   background-color: rgb(43, 135, 105);
+}
+
+.title-todo-div{
+    border: 2px solid gray;
+    padding: 10px;
+    box-shadow: 1px 5px 3px 2px rgb(149, 147, 147);
+    border-radius: 5px;
+}
+
+.title-todo{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 50px;
+    box-shadow: 1px 5px 3px 2px rgb(107, 104, 104);
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(115, 125, 125);
+    color: white;
+    border: 1px solid white;
+}
+.btn:hover{
+    background-color:white;
+    color: black;
+}
+
+
+.container-list{
+}
+
+li{
+    font-size: 30px;
+    list-style: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 1px solid white;
+    font-weight: bold;
+}
+li:hover{
+    background-color: rgb(195, 240, 225);
+}

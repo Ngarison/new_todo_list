@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="charger()">
     <div id="ft_list">
-        <h1>My TODOLIST</h1>
-        <button id="create" onclick="addTask()">New</button>
+        <div class="title-todo-div"><h1 class="title-todo">MY TODOLIST</h1></div>
+        <div class="btn_div"><button class="btn" id="create" onclick="addTask()">NEW</button></div>
         <div id="container-list"></div>
     </div>
     <script src="todo.js"></script>
